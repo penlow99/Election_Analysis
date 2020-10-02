@@ -55,6 +55,7 @@ with open(file_to_load) as election_data:
             winning_percentage = vote_percentage
             winning_candidate = candidate_name
 
+    # Print winner to terminal
     winning_candidate_summary = (
     f"-------------------------\n"
     f"Winner: {winning_candidate}\n"
@@ -62,6 +63,7 @@ with open(file_to_load) as election_data:
     f"Winning Percentage: {winning_percentage:.1f}%\n"
     f"-------------------------\n")
     print(winning_candidate_summary)
+    
 
     
 
